@@ -140,3 +140,10 @@ header{
     box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
     border: 0;
 }
+
+.screens{
+    background-image: url(image/screens.png);
+    width: 1552px;
+    height: 841px;
+   /** background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #0E0E0E 66.15%);
+**/}
