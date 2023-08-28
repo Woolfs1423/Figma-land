@@ -416,8 +416,7 @@ header{
 }
 .testimonials__cards{
     display: flex;
-    gap: 20px 23px;
-  
+    gap: 20px 23px;  
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
