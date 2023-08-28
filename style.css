@@ -9,11 +9,11 @@
     justify-content: center;
 }
 header{
-    max-width: 1097px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     gap: 35px;
-    align-self: stretch;
+    align-items: center;
     justify-content: center;
 }
 .header__navbar{
@@ -23,7 +23,7 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;  
-    margin: 0 auto;
+    
 }
 .navbar__logo{
     display: inline-flex;
@@ -40,9 +40,6 @@ header{
     align-items: center;
     gap: 31px;
     list-style: none;
-    margin: 0 auto;
-    padding: 0;
-
 }
 .menu__buttons{
     display: flex;
@@ -147,13 +144,16 @@ header{
     
 }
 
+
 .content{
     margin: 0 auto;
     display: flex;
     width: 1579px;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     gap: 100px;
+
 }
 .features__title{
     text-align: center;
@@ -199,7 +199,6 @@ header{
     width: 269px;
     float: right;
 }
-
 .block__image{   
     float: left;
     margin-top: 10px;
@@ -358,6 +357,50 @@ header{
     flex-direction: column;
     align-items: center;
     gap: 44px;
-    margin: 0 auto;
+    justify-content: center;
     text-align: center;
+    width: 1087px;
+}
+.gallery__cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    gap:44px 33px ;
+}
+.button{
+    display: flex;
+    height: 52px;
+    padding: 10px 30px;
+    align-items: center;
+    border: 1px solid var(--light-text, #FFF);
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+
+    color: var(--light-text, #FFF);
+    font-family: Graphik;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
+
+.partners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    align-self: stretch;
+    text-align: center;
+}
+.partners__brands{
+    display: flex;
+    align-items: center;
+    gap: 74px;
+    
+}
+.brands__logo{
+    list-style: none;
 }
