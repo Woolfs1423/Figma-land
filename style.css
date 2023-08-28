@@ -404,3 +404,75 @@ header{
 .brands__logo{
     list-style: none;
 }
+
+.testimonials{
+    display: flex;
+    padding: 50px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    align-self: stretch;   
+    
+}
+.testimonials__cards{
+    display: flex;
+    gap: 20px 23px;
+  
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;  
+}
+.cards__feedback{
+    display: flex;
+    width: 430px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+    background: var(--dark-background, #181818);
+}
+.feedback__clients{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.feedback__avatar{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.feedback__title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.2px; 
+    color: var(--light-text, #FFF);
+}
+.title__link{
+    color: var(--light-text, #FFF);
+    text-decoration: none;
+}
+.feedback__paragraf{
+    display: flex;
+    align-items: center;
+    color: var(--light-text, #FFF);
+    width: 320px;
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.2px;
+}
