@@ -7,31 +7,31 @@
     <title>Figma Land</title>
   </head>
   <body>
-    <div class="content">
+    <div class="page">
       <header class="header">
-        <div class="header__logo">
-          <img src="image/Rectangle 4.svg" alt="" class="logo__img" />
+        <div class="header__navbar">
+          <div class="navbar__logo">
+            <img src="image/Rectangle 4.svg" alt="" class="logo__img" />
+          </div>
+          <ul class="navbar__menu">
+            <li class="menu__buttons">
+              <a href="#" class="buttons__link">Home</a>
+            </li>
+            <li class="menu__buttons">
+              <a href="#" class="buttons__link">Product</a>
+            </li>
+            <li class="menu__buttons">
+              <a href="#" class="buttons__link">About</a>
+            </li>
+            <li class="menu__buttons">
+              <a href="#" class="buttons__link">Contact</a>
+            </li>
+          </ul>
+          <div class="navbar__button">
+            <a href="#" class="button__link">Login</a>
+          </div>
         </div>
-        <ul class="header__menu">
-          <li class="menu__buttons">
-            <a href="#" class="buttons__link">Home</a>
-          </li>
-          <li class="menu__buttons">
-            <a href="#" class="buttons__link">Product</a>
-          </li>
-          <li class="menu__buttons">
-            <a href="#" class="buttons__link">About</a>
-          </li>
-          <li class="menu__buttons">
-            <a href="#" class="buttons__link">Contact</a>
-          </li>
-        </ul>
-        <div class="header__button">
-          <a href="#" class="buttons__link">Login</a>
-        </div>
-      </header>
-      <main>
-        <div class="slate">
+        <div class="header__slate">
           <h1 class="slate__title">Work at the speed of thought</h1>
           <p class="slate__subtitle">
             Most calendars are designed for teams. Slate is designed for
@@ -46,8 +46,10 @@
             </li>
           </ul>
         </div>
-        <div class="screens"></div>
+        <div class="header__screens"></div>
+      </header>
 
+      <main class="content">
         <div class="features">
           <h1 class="features__title">FEATURES</h1>
           <p class="features__subtitle">
@@ -95,7 +97,53 @@
             </div>
           </div>
         </div>
-        <div class="Contents"><h2 class="">Contents</h2></div>
+
+        <div class="contents">
+          <div class="contents__titles">
+            <h2 class="titles__title">Contents</h2>
+            <p class="titles__subtitle">
+              We focus on ergonomics and meeting you where you work. It's only a
+              keystroke away.
+            </p>
+          </div>
+          <div class="contents__cards">
+            <div class="cards__card">
+              <div class="card__title">
+                <h2 class="title__title">Work</h2>
+                <p class="title__subtitle">
+                  Ever wondered if you're too reliant on a client for work?
+                  Slate helps you identify .
+                </p>
+              </div>
+              <a class="card__button">Sign Up</a
+              ><img src="image/Macbook Pro.png" alt="" class="card__image" />
+            </div>
+            <div class="cards__card">
+              <div class="card__title">
+                <h2 class="title__title">Design with real data</h2>
+                <p class="title__subtitle">
+                  Ever wondered if you're too reliant on a client for work?
+                  Slate helps you identify .
+                </p>
+              </div>
+              <a class="card__button">Try For Free</a
+              ><img
+                src="image/Boards Notifications.png"
+                alt=""
+                class="card__image"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="gallery">
+          <div class="gallery__titles">
+            <h2 class="titles__title">Gallery</h2>
+            <p class="titles__subtitle">
+              We focus on ergonomics and meeting you where you work. It's only a
+              keystroke away.
+            </p>
+          </div>
+        </div>
       </main>
       <footer></footer>
     </div>
