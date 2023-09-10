@@ -1,0 +1,11 @@
+.menu__buttons{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+@media screen and (max-width: 990px) {
+    .menu__buttons {
+           display: none;
+        }
+}

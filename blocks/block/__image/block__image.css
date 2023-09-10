@@ -1,0 +1,10 @@
+.block__image{   
+    float: left;
+    margin-top: 10px;
+}
+@media screen and (max-width: 990px) {
+    .block__image {
+            float: left;
+            margin-top: 10px;
+        }
+}

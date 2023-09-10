@@ -1,0 +1,29 @@
+.slate__subtitle{
+    text-align: center;
+    width: 582px;
+    margin: 0 auto;
+    margin-top: 17px;
+    color: var(--light-text, #FFF);
+    font-family: Graphik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+@media screen and (max-width: 990px) {
+    .slate__subtitle {
+            text-align: center;
+            width: 382px;
+            margin: 0 auto;
+            margin-top: 17px;
+            color: var(--light-text, #FFF);
+            font-family: Graphik;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.2px;
+    
+        }
+}

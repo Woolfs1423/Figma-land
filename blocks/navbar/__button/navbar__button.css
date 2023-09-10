@@ -1,0 +1,17 @@
+.navbar__button{
+    display: inline-flex;
+    height: 52px;
+    padding: 10px 36px;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+@media screen and (max-width: 990px) {
+    .navbar__button {
+            display: inline-flex;
+            height: 52px;
+            padding: 10px 36px;
+            align-items: center;
+            flex-shrink: 0;
+        }
+}

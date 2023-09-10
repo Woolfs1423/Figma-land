@@ -1,0 +1,13 @@
+.contacts__navigation{
+    display: flex;
+    align-items: flex-start;
+    gap: 75px;
+}
+@media screen and (max-width: 990px) {
+    .contacts__navigation {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 75px;
+        }
+}

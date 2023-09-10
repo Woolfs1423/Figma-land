@@ -1,0 +1,23 @@
+.titles__subtitle{
+    color: var(--light-text, #FFF);
+    text-align: center;
+    font-family: Graphik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+@media screen and (max-width: 990px) {
+    .titles__subtitle {
+            color: var(--light-text, #FFF);
+            text-align: center;
+            font-family: Graphik;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.2px;
+            width: 329px;
+        }
+}

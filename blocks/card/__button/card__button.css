@@ -1,0 +1,30 @@
+.card__button{
+    color: var(--light-text, #FFF);
+    font-family: Graphik;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; 
+    letter-spacing: 0.2px;
+    padding: 57px 0;
+    display: flex;
+    height: 52px;
+    padding: 20px 36px;
+    align-items: center;
+}
+@media screen and (max-width: 990px) {
+    .card__button {
+            color: var(--light-text, #FFF);
+            font-family: Graphik;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 25px;
+            letter-spacing: 0.2px;
+            padding: 57px 0;
+            display: flex;
+            height: 52px;
+            padding: 20px 36px;
+            align-items: center;
+        }
+}

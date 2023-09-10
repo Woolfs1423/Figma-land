@@ -1,0 +1,6 @@
+.contact__social-media{
+    display: flex;
+    padding: 20px 0px;
+    align-items: center;
+    gap: 24px;
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width: 990px) {
+    .title__titles {       
+            color: var(--first-text, #000);
+            text-align: center;
+            font-family: Graphik;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0.1px;
+            display: flex;
+            padding: 10px;
+            align-items: center;
+            gap: 10px;
+        }
+}

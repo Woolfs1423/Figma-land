@@ -1,0 +1,14 @@
+.navbar__logo{
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+}
+@media screen and (max-width: 990px) {
+    .navbar__logo {
+            display: inline-flex;
+            padding: 10px;
+            align-items: flex-start;
+            gap: 10px;
+        }
+}

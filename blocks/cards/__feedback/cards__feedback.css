@@ -1,0 +1,23 @@
+.cards__feedback{
+    display: flex;
+    width: 430px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+    background: var(--dark-background, #181818);
+}
+@media screen and (max-width: 990px) {
+    .cards__feedback {
+            display: flex;
+            width: 272px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 30px;
+            border-radius: 10px;
+            border: 1px solid #DEDEDE;
+            background: var(--dark-background, #181818);
+        }
+}

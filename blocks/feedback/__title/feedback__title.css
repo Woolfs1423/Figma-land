@@ -1,0 +1,27 @@
+.feedback__title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.2px; 
+    color: var(--light-text, #FFF);
+}
+@media screen and (max-width: 990px) {
+    .feedback__title {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            font-family: Graphik;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            color: var(--light-text, #FFF);
+        }
+}

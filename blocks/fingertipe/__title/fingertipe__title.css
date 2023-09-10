@@ -1,0 +1,13 @@
+.fingertipe__title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--light-text, #FFF);
+    font-family: Graphik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+}

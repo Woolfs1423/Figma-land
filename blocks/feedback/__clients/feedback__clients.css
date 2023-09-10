@@ -1,0 +1,5 @@
+.feedback__clients{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}

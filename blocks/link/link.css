@@ -1,0 +1,12 @@
+.link{
+    text-decoration: none;
+    margin: 0;
+    text-align: center;
+}
+@media screen and (max-width: 990px) {
+    .link {
+            text-decoration: none;
+            margin: 0;
+            text-align: center;
+        }
+}

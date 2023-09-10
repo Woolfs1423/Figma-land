@@ -1,0 +1,19 @@
+.header__navbar{
+    display: flex;  
+    width: 1097px;
+    height: 119px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;  
+}
+@media screen and (max-width: 990px) {
+    .header__navbar {
+            display: flex;
+            padding: 15px 16px 14px 24px;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 30px;
+            align-self: stretch;
+            width: 509px;
+        }
+}

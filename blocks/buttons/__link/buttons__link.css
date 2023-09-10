@@ -1,0 +1,28 @@
+.buttons__link{
+   color: #FFF; 
+   text-decoration: none;
+   color: var(--light-text, #FFF);
+    text-align: center;
+
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.2px;
+}
+@media screen and (max-width: 990px) {
+    .buttons__link {
+            color: #FFF;
+            text-decoration: none;
+            color: var(--light-text, #FFF);
+            text-align: center;
+    
+            font-family: Graphik;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+        }
+}

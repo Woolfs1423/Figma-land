@@ -1,0 +1,23 @@
+.call-to-action{
+    display: flex;
+    height: 370px;
+    align-items: center;
+    gap: 86px;
+ overflow: hidden;
+    border-radius: 33px;
+    background: #343434;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+}
+@media screen and (max-width: 990px) {
+    .call-to-action {
+            display: flex;
+            height: auto;
+            align-items: center;
+            flex-direction: column;
+            gap: 0;
+            background: #1E1E1E;;
+            box-shadow: none;
+            overflow: hidden;
+            border-radius: 0;
+        }
+}

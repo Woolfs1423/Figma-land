@@ -1,0 +1,10 @@
+.title__link{
+    color: var(--light-text, #FFF);
+    text-decoration: none;
+}
+@media screen and (max-width: 990px) {
+    .title__link {
+            color: var(--light-text, #FFF);
+            text-decoration: none;
+        }
+}

@@ -1,0 +1,6 @@
+@media screen and (max-width: 990px) {
+    .gallery__images{
+            width: 305px;
+            height: 285px;
+        }
+}

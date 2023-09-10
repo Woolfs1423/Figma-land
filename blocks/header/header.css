@@ -1,0 +1,10 @@
+@media screen and (max-width: 990px) {
+    .header {
+            max-width: 549px;
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+            align-items: center;
+            justify-content: center;
+        }
+}

@@ -1,0 +1,14 @@
+.features__image{
+    width:752px ;
+    height: 759px;
+}
+.features__image{
+    float: left;
+    width: 752px;
+}
+@media screen and (max-width: 990px) {
+    .features__image {
+            width: 376px;
+            height: 406px;
+        }
+}

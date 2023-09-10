@@ -1,0 +1,10 @@
+.features__chat-bot{
+    margin: 80px  auto 0 auto;
+    width: 1088px;   
+}
+@media screen and (max-width: 990px) {
+    .features__chat-bot {
+            margin: 80px auto 0 auto;
+            width: 376px;
+        }
+}

@@ -1,0 +1,12 @@
+.contents__titles{
+    width: 591px;
+    margin: 0 auto;
+    text-align: center;
+}
+@media screen and (max-width: 990px) {
+    .contents__titles {
+            width: 591px;
+            margin: 0 auto;
+            text-align: center;
+        }
+}

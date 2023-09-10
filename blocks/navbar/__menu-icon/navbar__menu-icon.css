@@ -1,0 +1,8 @@
+.navbar__menu-icon{
+    display: none;
+}
+@media screen and (max-width: 990px) {
+    .navbar__menu-icon{
+            display: block;
+        }
+}

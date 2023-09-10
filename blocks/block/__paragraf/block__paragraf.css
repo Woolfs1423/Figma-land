@@ -1,0 +1,25 @@
+.block__paragraf{
+    margin-top: 10px;
+    clear: both;
+
+    color: var(--light-text, #FFF);
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+@media screen and (max-width: 990px) {
+    .block__paragraf {
+            margin-top: 10px;
+            clear: both;
+            color: var(--light-text, #FFF);
+            font-family: Graphik;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+        }
+}

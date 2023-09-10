@@ -1,0 +1,20 @@
+.button__link{
+    color: var(--light-background, #FFF);
+    font-family: Graphik;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; 
+    letter-spacing: 0.2px;
+}
+@media screen and (max-width: 990px) {
+    .button__link {
+            color: var(--light-background, #FFF);
+            font-family: Graphik;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 25px;
+            letter-spacing: 0.2px;
+        }
+}

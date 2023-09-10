@@ -1,0 +1,29 @@
+.call-to-action__button{
+    display: flex;
+    padding: 10px 31px;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-text, #FFF);
+
+    font-family: Graphik;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; 
+    letter-spacing: 0.2px;
+}
+@media screen and (max-width: 990px) {
+    .call-to-action__button {
+            display: flex;
+            gap: 10px;
+            color: var(--light-text, #FFF);
+            font-family: Graphik;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 25px;
+            letter-spacing: 0.2px;
+            padding: 20px 36px;
+            align-items: center;
+        }
+}

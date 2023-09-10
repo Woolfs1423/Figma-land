@@ -1,0 +1,13 @@
+.phone__number{
+    color: var(--light-text, #FFF);
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.2px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}

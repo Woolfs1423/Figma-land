@@ -1,0 +1,15 @@
+.call-to-action__image{
+    width: 585px;
+    height: 370px;
+    background: url("../../../image/Line\ Chart\ 2.png"),no-repeat;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+@media screen and (max-width: 990px) {
+    .call-to-action__image {
+            width: 541px;
+            height: 473.5px;
+            background: url("../../../image/Line\ Chart\ 1.png") no-repeat;
+            margin: 0 auto;
+        }
+}
