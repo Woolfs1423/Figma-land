@@ -20,6 +20,7 @@
     .button {
             display: flex;
             height: 52px;
+            margin: 0;
             padding: 10px 30px;
             align-items: center;
             border: 1px solid var(--light-text, #FFF);

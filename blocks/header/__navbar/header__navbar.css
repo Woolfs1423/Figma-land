@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;  
+    margin: 0 auto;
 }
 @media screen and (max-width: 990px) {
     .header__navbar {
