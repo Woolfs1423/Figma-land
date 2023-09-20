@@ -65,12 +65,11 @@
 @import url("../blocks/gallery/__images/gallery__images.css");
 @import url("../blocks/gallery/gallery.css");
 
+@import url("../blocks/header/__screens-and-screens-shadov/__screens/header__screens-and-screens-shadov__screens.css");
+@import url("../blocks/header/__screens-and-screens-shadov/__sctreens-shadov/header__screens-and-screens-shadov__screens-shadov.css");
+@import url("../blocks/header/__screens-and-screens-shadov/header__screens-and-screens-shadov.css");
 @import url("../blocks/header/__navbar/header__navbar.css");
-@import url("../blocks/header/__screens/header__screens.css");
-@import url("../blocks/header/__slate/header__slate.css");
 @import url("../blocks/header/header.css");
-
-
 
 
 

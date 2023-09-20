@@ -1,13 +1,13 @@
-.header__screens{
-    background-image: url(../../../image/screens.png) ;
+.screens-and-screens-shadov__screens{
+    background-image: url(../../../../image/screens.png) ;
     background-repeat: no-repeat;
     width: 1552px;
     height: 841px;
     
 }
 @media screen and (max-width: 990px) {
-    .header__screens {
-            background-image: url(../../../image/screens2.png);
+    .screens-and-screens-shadov__screens {
+            background-image: url(../../../../image/screens2.png);
             background-repeat: no-repeat;
             flex-shrink: 0;
             width: 539.695px;

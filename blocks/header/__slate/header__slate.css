@@ -1,12 +1,16 @@
 .header__slate{
-    clear: both;
-   justify-content: center;
-    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    margin-top: 95px;
 }
 @media screen and (max-width: 990px) {
     .header__slate {
-            clear: both;
-            justify-content: center;
-            margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
         }
 }

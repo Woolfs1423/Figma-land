@@ -8,6 +8,7 @@
 }
 @media screen and (max-width: 990px) {
     .gallery__cards {
+            width: 389px ;
             display: flex;
             align-items: center;
             gap: 33px;
