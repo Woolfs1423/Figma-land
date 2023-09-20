@@ -6,6 +6,9 @@
     justify-content: center;
     text-decoration: none;
 }
+.button_perple:hover{
+    background-color:var(--primary, #151a52) ;
+}
 @media screen and (max-width: 990px) {
     .button_perple {
             background: var(--primary, #4452FE);

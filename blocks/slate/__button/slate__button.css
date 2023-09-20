@@ -17,6 +17,7 @@
 .slate__button:first-child{
     margin-left: 0;
 }
+
 @media screen and (max-width: 990px) {
     .slate__button {
             display: inline-block;
